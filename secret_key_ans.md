@@ -12,7 +12,7 @@
 
   3.What is the process for adding files to the local respository called?
 
-- forking (keyword: FUSE)
+- committing (keyword: TRAP)
 
 4. What happens when executing the command git branch bug-fixes then git checkout bug-fixes?
 
