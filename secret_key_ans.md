@@ -17,3 +17,5 @@
 4. What happens when executing the command git branch bug-fixes then git checkout bug-fixes?
 
 - A new branch bug-fixes will be created and then moved to. (keyword: pine)
+
+full answer: OOZEdiveTRAPpine
