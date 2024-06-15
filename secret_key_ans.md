@@ -20,7 +20,7 @@
 
 full answer: OOZEdiveTRAPpine
 
-### Part 2, JSON file
+### Part 2, reviewing files
 
 5 properties: name, description, pledged, goals, backers, img
 11 games in total
@@ -36,3 +36,5 @@ ex:
 32 people donated, 1036$ donated, the target goal is 3099 for Mislight the game
 
 secret key: 6games-container.stats-card15
+
+### Part 3, adding data
