@@ -19,3 +19,20 @@
 - A new branch bug-fixes will be created and then moved to. (keyword: pine)
 
 full answer: OOZEdiveTRAPpine
+
+### Part 2, JSON file
+
+5 properties: name, description, pledged, goals, backers, img
+11 games in total
+
+it represents:
+what the gmae is about
+the name of the games
+
+backers - holds a number referring to the number of unique people who have donated to fund a game
+pledged - holds a dollar amount referring to the amount of money backers have donated to the game
+
+ex:
+32 people donated, 1036$ donated, the target goal is 3099 for Mislight the game
+
+secrete key: 5id="all-btn".stats-card31
