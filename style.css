@@ -19,11 +19,13 @@ body {
     margin-top: -10px;
 }
 
-.stats-container:hover {
-    /* Add a CSS rule for stats-container that sets the cursor to pointer and box-shadow to 0 0 30px lightblue on hover */
+.stats-container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+}
+
+.stats-container:hover{
+        /* Add a CSS rule for stats-container that sets the cursor to pointer and box-shadow to 0 0 30px lightblue on hover */
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
 }

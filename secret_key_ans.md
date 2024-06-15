@@ -35,4 +35,15 @@ pledged - holds a dollar amount referring to the amount of money backers have do
 ex:
 32 people donated, 1036$ donated, the target goal is 3099 for Mislight the game
 
-secrete key: 5id="all-btn".stats-card31
+Component 1: How many attributes does each game have?
+6 [OK]
+
+Component 2: What is the id of the HTML element that will display a list of all games?
+
+Component 3: Which selector would select all elements with the stats-card class? Include the full selector (in other words, what would you write if defining a CSS rule for these elements?).
+
+Component 4: Which line number in index.js contains the start of a loop?
+
+Hint: your 🔑 Secret key should be 29 characters long
+
+secret key: 6games-container.stats-card15
