@@ -12,8 +12,8 @@
 
   3.What is the process for adding files to the local respository called?
 
--
+- forking (keyword: FUSE)
 
 4. What happens when executing the command git branch bug-fixes then git checkout bug-fixes?
 
--
+- A new branch bug-fixes will be created and then moved to. (keyword: pine)
