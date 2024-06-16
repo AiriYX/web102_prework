@@ -79,3 +79,12 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px rgb(44, 43, 43);
+}
+
+.navbar {
+    text-align: right;
+}
