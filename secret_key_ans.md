@@ -45,10 +45,10 @@ Secret key component 1: How many times will this loop run when it is called with
 
 Componet 2: What would the output of this code segment be?
 
-- yellow
+- seafoam
 
 component 3: Which variable was passed to addGamesToPage in order to add all the games to the page?
 
 - GAMES_JSON
 
-11yellowGAMES_JSON
+11seafoamGAMES_JSON
