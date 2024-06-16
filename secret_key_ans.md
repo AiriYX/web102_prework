@@ -37,4 +37,16 @@ ex:
 
 secret key: 6games-container.stats-card15
 
-### Part 3, adding data
+### Part 3, adding data + revisting JS
+
+Secret key component 1: How many times will this loop run when it is called with the argument GAMES_JSON?
+
+- 11?
+
+Componet 2: What would the output of this code segment be?
+
+- yellow
+
+component 3: Which variable was passed to addGamesToPage in order to add all the games to the page?
+
+-
