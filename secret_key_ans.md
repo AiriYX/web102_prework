@@ -18,7 +18,7 @@
 
 - A new branch bug-fixes will be created and then moved to. (keyword: pine)
 
-full answer: OOZEdiveTRAPpine
+full answer: **OOZEdiveTRAPpine**
 
 ### Part 2, reviewing files
 
@@ -35,7 +35,7 @@ pledged - holds a dollar amount referring to the amount of money backers have do
 ex:
 32 people donated, 1036$ donated, the target goal is 3099 for Mislight the game
 
-secret key: 6games-container.stats-card15
+secret key: **6games-container.stats-card15**
 
 ### Part 3, adding data + revisting JS
 
@@ -51,4 +51,4 @@ component 3: Which variable was passed to addGamesToPage in order to add all the
 
 - GAMES_JSON
 
-11seafoamGAMES_JSON
+**11seafoamGAMES_JSON**
