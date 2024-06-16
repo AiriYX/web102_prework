@@ -34,7 +34,7 @@ function addGamesToPage(games) {
     // set the inner HTML using a template literal to display some info
     // about each game
     gamecard.innerHTML = `
-    <img src = "$games[i].img" alt="${games[i].name}" class = "game-img"/>
+    <img src="${games[i].img}" alt="${games[i].name}" class = "game-img" />
     <h2> ${games[i].name} </h2>
     <p> ${games[i].description} </p>
     <p> Goal: $${games[i].goal} </p>
