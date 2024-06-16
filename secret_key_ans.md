@@ -49,4 +49,6 @@ Componet 2: What would the output of this code segment be?
 
 component 3: Which variable was passed to addGamesToPage in order to add all the games to the page?
 
--
+- GAMES_JSON
+
+11yellowGAMES_JSON
