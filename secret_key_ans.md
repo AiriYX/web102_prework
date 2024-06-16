@@ -52,3 +52,9 @@ component 3: Which variable was passed to addGamesToPage in order to add all the
 - GAMES_JSON
 
 **11seafoamGAMES_JSON**
+
+### PART 4, gathering data and putting it into HTML
+
+passkey: 19187800268BRAIN
+
+### PART 5, functions and filter
