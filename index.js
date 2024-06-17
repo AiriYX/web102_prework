@@ -37,9 +37,9 @@ function addGamesToPage(games) {
     <img src="${games[i].img}" alt="${games[i].name}" class="game-img" />
     <h2> ${games[i].name} </h2>
     <p> ${games[i].description} </p>
-    <p> Goal: $${games[i].goal} </p>
-    <p>Pledged: $${games[i].pledged}</p>
-     <p>Backers: $${games[i].backers}</p>
+    <p> Goal: $${games[i].goal.toLocaleString()} </p>
+    <p>Pledged: $${games[i].pledged.toLocaleString()}</p>
+     <p>Backers: ${games[i].backers}</p>
     `;
 
     gamesContainer.appendChild(gamecard);
@@ -179,9 +179,45 @@ let [first_game, second_game] = [...sortedGames];
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 const firstGameElement = document.createElement("p");
 firstGameElement.textContent = first_game.name;
+firstGameElement.style.color = "#f1f3f4"; // Change the color to whatever you want
 firstGameContainer.appendChild(firstGameElement);
 
 const secondGameElement = document.createElement("p");
 secondGameElement.textContent = second_game.name;
+secondGameElement.style.color = "#f1f3f4"; // Change the color to whatever you want
 secondGameContainer.appendChild(secondGameElement);
 //do the same for the runner up item
+/*************************************************************************************
+ * Challenge 8: customization + addtional features
+ * Skills used: various
+ */
+
+// Get the search button and the search input field from the DOM
+const searchButton = document.getElementById("search-style");
+const searchInput = document.getElementById("search-input");
+
+// Add an event listener to the search button
+searchButton.addEventListener("click", function () {
+  // Get the value of the search input field
+  let searchValue = searchInput.value.toLowerCase();
+  // Filter the GAMES_JSON array to only include games whose name includes the search input value
+  let filteredGames = GAMES_JSON.filter(
+    (game) =>
+      game.name.toLowerCase().startsWith(searchValue[0]) &&
+      game.name.toLowerCase().includes(searchValue)
+  );
+
+  // Create a string with the names of filtered games
+  let gameNames = filteredGames.map((game) => game.name).join(", ");
+
+  // Display an alert with the list of filtered games
+
+  filteredGames.length == 1
+    ? alert(`Game found: ${gameNames}`)
+    : gameNames.length > 1
+    ? alert(`Games Found: ${gameNames}`)
+    : alert(`No games found with the name: ${searchValue}`);
+
+  // Clear the search input field
+  searchInput.value = "";
+});

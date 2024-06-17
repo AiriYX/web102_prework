@@ -4,14 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <div class="header">
+        <div class="icon">
+        <img id="tentacles" src="assets/tentacles.png">
+        </div>
+        <h1 class="header-text1">SEAMON Crowdfunding</h1>
+        <nav>
+            <input type="text" name="" placeholder="Search games..." id="search-input">
+            <button type="submit" id="search-style"><i id="search-icon" class="fa fa-search" aria-hidden="true"></i></button>
+        </nav>
+    </div>
+
   </head>
 
   <body>
     <!-- header row with logo -->
-    <div class="header">
-        <img id="tentacles" src="assets/tentacles.png">
-        <h1 class="header-text">Sea Monster Crowdfunding</h1>
-    </div>
+    <!-- <div class="header">
+        <div id="logo-container">
+            <img id="tentacles" src="assets/tentacles.png">
+            <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        </div>
+        <div id="search-container">
+            <input type="text" name="" placeholder="Search games..." id="search-input">
+            <button type="submit"><i id="search-icon" class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+    </div> -->
+
+
+
 
     <!-- background info about company -->
     <h2>Welcome to Sea Monster!</h2>
@@ -49,13 +72,13 @@
 
     <!-- list of games funded by Sea Monster -->
     <h2>Our Games</h2>
-    <p>Check out each of our games below!</p>
+    <p style = "padding-left: 20px">Check out each of our games below!</p>
     <div id="button-container">
-        <button id="unfunded-btn">Show Unfunded Only</button>
-        <button id="funded-btn">Show Funded Only</button>
-        <button id="all-btn">Show All Games</button>
+        <button id="unfunded-btn" class="game-btn">Show Unfunded Only</button>
+        <button id="funded-btn" class="game-btn">Show Funded Only</button>
+        <button id="all-btn" class="game-btn">Show All Games</button>
     </div>
-    
+
     <div id="games-container"></div>
 
     <script type="module" src="index.js"></script>

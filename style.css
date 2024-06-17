@@ -2,22 +2,61 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #e3e4dc;
 }
 
+h3{
+    color: #dde4e1;
+}
 #tentacles {
-    width: 50px;
+    width: 70px;
 }
 
-.header {
+h2{
+    padding-left: 20px;
+}
+
+#description-container{
+    padding-left: 20px;
+}
+
+.game-btn{
+    background-color: #32475b;
+    color: #f4f6f4;
+}
+
+/* .header {
     display: flex;
     background-color: lightblue;
     padding: 1%;
     align-items: center;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+} */
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #32475b;
+    padding: 1%;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
 }
+
+.header-text1{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 5%;
+}
+
 
 .stats-container {
     display: flex;
@@ -26,11 +65,11 @@ body {
 
 .stats-container:hover{    
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #4a4a48;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #32475b;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -40,6 +79,7 @@ body {
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
+    color: #f4f6f4;
 }
 
 #games-container {
@@ -61,11 +101,12 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #4a4a48;
 }
 
 #button-container {
@@ -82,9 +123,26 @@ button {
 
 button:hover {
     cursor: pointer;
-    box-shadow: 3px 3px rgb(44, 43, 43);
+    box-shadow: 4px 3.5px #4177a3;
 }
 
-.navbar {
-    text-align: right;
+#search-container {
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px;
+    padding-left: 20px; /* Adds padding on the right */
+    padding: 2em;
 }
+
+search-container:focus:hover{
+    box-shadow: 3px 3px rgb(44, 43, 43);;
+}
+
+#search-input {
+    border: none;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 30%;
+}
+
