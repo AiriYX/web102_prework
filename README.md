@@ -15,7 +15,7 @@ The following **required** functionality is completed:
 - [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
 - [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
-The following features are implemented:
+The following **optional & new** features are implemented:
 
 - **Search Functionality**: Users can input a search term, click the search button, and receive an alert with the list of games that match the search term. The functionality handles cases where one game, multiple games, or no games are found based on the search input.
 
