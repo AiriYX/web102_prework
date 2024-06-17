@@ -35,7 +35,7 @@ GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 
-Throughout the process of building this app, the biggest challenge for me was revisiting concepts that I have learned about Website Development. Majority of my time was spent reviewing the concepts again. After the review everything was alot more smoother. Additionally, finding the passkeys was a fun motivation as each challenge unlocks the key. At the end of the day, this was a great learning experience and I can't wait to learn the next step.
+Throughout the process of building this app, the biggest challenge for me was revisiting and learning concepts about website development. A majority of my time was spent reviewing these concepts. After the review, everything went much smoother. I found utilizing the spread operator and destructuring to be interesting yet slightly confusing. However, I overcame this challenge by testing out multiple ways to use them. Through trial and error, I gained a better understanding of their usage. Finding the passkeys was a fun motivation, as each challenge unlocked a new key. Overall, this was a great learning experience, and I can't wait to learn more.
 
 ## License
 
