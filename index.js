@@ -55,6 +55,7 @@ function addGamesToPage(games) {
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
 addGamesToPage(GAMES_JSON);
+
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
  * total number of contributions, amount donated, and number of games on the site.
@@ -102,7 +103,7 @@ function filterUnfundedOnly() {
   // use filter() to get a list of games that have not yet met their goal
   let unfundedGames = GAMES_JSON.filter((game) => game.pledged < game.goal);
   // use the function we previously created to add the unfunded games to the DOM
-  console.log(unfundedGames);
+  // console.log(unfundedGames);
   addGamesToPage(unfundedGames);
 }
 
@@ -113,7 +114,7 @@ function filterFundedOnly() {
   // use filter() to get a list of games that have met or exceeded their goal
   let fundedGames = GAMES_JSON.filter((game) => game.pledged > game.goal);
   // use the function we previously created to add unfunded games to the DOM
-  console.log(fundedGames);
+  // console.log(fundedGames);
   addGamesToPage(fundedGames);
 }
 
@@ -121,7 +122,7 @@ function filterFundedOnly() {
 function showAllGames() {
   deleteChildElements(gamesContainer);
   addGamesToPage(GAMES_JSON);
-  console.log(GAMES_JSON);
+  // console.log(GAMES_JSON);
   // add all games from the JSON data to the DOM
 }
 
@@ -134,6 +135,7 @@ const allBtn = document.getElementById("all-btn");
 unfundedBtn.addEventListener("click", filterUnfundedOnly);
 fundedBtn.addEventListener("click", filterFundedOnly);
 allBtn.addEventListener("click", showAllGames);
+
 /*************************************************************************************
  * Challenge 6: Add more information at the top of the page about the company.
  * Skills used: template literals, ternary operator
@@ -157,7 +159,6 @@ let description =
       } games remain unfunded. We need your help to fund these amazing games!`;
 
 // create a new DOM element containing the template string and append it to the description container
-
 let paragraph = document.createElement("p");
 paragraph.innerHTML = description;
 descriptionContainer.appendChild(paragraph);
@@ -187,6 +188,7 @@ secondGameElement.textContent = second_game.name;
 secondGameElement.style.color = "#f1f3f4"; // Change the color to whatever you want
 secondGameContainer.appendChild(secondGameElement);
 //do the same for the runner up item
+
 /*************************************************************************************
  * Challenge 8: customization + addtional features
  * Skills used: various
@@ -196,7 +198,6 @@ secondGameContainer.appendChild(secondGameElement);
 const searchButton = document.getElementById("search-style");
 const searchInput = document.getElementById("search-input");
 
-// Add an event listener to the search button
 searchButton.addEventListener("click", function () {
   // Get the value of the search input field
   let searchValue = searchInput.value.toLowerCase();
@@ -211,7 +212,6 @@ searchButton.addEventListener("click", function () {
   let gameNames = filteredGames.map((game) => game.name).join(", ");
 
   // Display an alert with the list of filtered games
-
   filteredGames.length == 1
     ? alert(`Game found: ${gameNames}`)
     : gameNames.length > 1
